@@ -56,6 +56,7 @@ aioresponses = "0.7.3"
 [tool.poetry.scripts]
 ballyregan = "cli.app:run"
 
+
 [build-system]
-requires = ["poetry-core>=1.0.0"]
-build-backend = "poetry.core.masonry.api"
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
